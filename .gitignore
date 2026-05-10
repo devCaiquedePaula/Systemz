@@ -31,3 +31,13 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Local secrets / environment files ###
+.env
+.env.*
+*.log
+*.key
+*.pem
+*.p12
+*.jks
+
