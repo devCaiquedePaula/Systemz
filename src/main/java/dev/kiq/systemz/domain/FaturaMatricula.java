@@ -32,6 +32,7 @@ public class FaturaMatricula {
     @Column(name = "data_vencimento")
     private LocalDate dataVencimento;
     
+    @Column(name = "valor_total")
     private BigDecimal valor;
     
     @Column(name = "data_pagamento")
